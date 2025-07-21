@@ -1,5 +1,4 @@
-services:
-  - type: web
+   - type: web
     name: MammaMia  
     runtime: python  
     buildCommand: pip install -r requirements.txt  
