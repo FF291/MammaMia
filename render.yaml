@@ -1,4 +1,5 @@
-   - type: web
+ services:
+  - type: web
     name: MammaMia  
     runtime: python  
     buildCommand: pip install -r requirements.txt  
@@ -15,4 +16,4 @@
       - key: TMDB_KEY
         sync: false
       - key: PROXY
-        sync: false
+        sync: false 
